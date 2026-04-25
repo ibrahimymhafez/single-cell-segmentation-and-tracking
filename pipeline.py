@@ -385,4 +385,5 @@ def run_pipeline(frames=None, out_dir='results'):
 
 
 if __name__ == '__main__':
-    run_pipeline(out_dir='/Users/ibrahimyaser/Documents/CS Study/My Projects/Single Cell Analysis/files')
+    # Write your path here
+    run_pipeline(out_dir='/path/results')
