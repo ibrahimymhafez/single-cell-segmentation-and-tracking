@@ -18,7 +18,7 @@ Designed for:
 ## 🚀 Quick Start (Synthetic Demo)
 
 ```bash
-pip3 install numpy scipy scikit-image matplotlib pandas tifffile opencv-python-headless
+pip3 install numpy scipy scikit-image matplotlib pandas tifffile
 python3 pipeline.py
 ```
 
@@ -28,7 +28,16 @@ python3 pipeline.py
 
 ## 🧪 Demo Result (Single Sample)
 
-To demonstrate the pipeline, we run it on a single microscopy frame from the dataset.
+To demonstrate the pipeline, we run it on one full-time-lapse sequence from the dataset.
+
+### Segmentation Output
+
+![segmentation](results/)
+
+### Tracking Output
+
+![tracking](results/)
+
 
 ---
 
@@ -57,9 +66,7 @@ DIC-C2DH-HeLa/
 ### 3. Run Pipeline
 
 ```bash
-python3 ctc_loader.py \
-  --data_dir DIC-C2DH-HeLa/01 \
-  --max_frames 30
+python3 ctc_loader.py --data_dir DIC-C2DH-HeLa/01 --max_frames 30
 ```
 
 ---
