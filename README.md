@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
 
-A lightweight Python pipeline for **detecting, segmenting, tracking, and analyzing single cells** in microscopy time-lapse.
+A lightweight Python pipeline for **detecting, segmenting, tracking, and analyzing single cells** in microscopy time-lapse sequences.
 
 Designed for:
 
