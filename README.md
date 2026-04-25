@@ -32,7 +32,12 @@ To demonstrate the pipeline, we run it on one full-time-lapse sequence from the 
 
 ### Segmentation Output
 
-![segmentation](results/)
+![segmentation](results/A_segmentation_grid.png)
+![segmentation](results/B_cell_tracks.png)
+![segmentation](results/C_feature_histograms.png)
+![segmentation](results/D_area_over_time.png)
+![segmentation](results/E_speed_vs_displacement.png)
+
 
 ### Tracking Output
 
@@ -49,9 +54,7 @@ This pipeline supports real biological datasets from the **Cell Tracking Challen
 
 [https://celltrackingchallenge.net/datasets/](https://celltrackingchallenge.net/datasets/)
 
-Example:
-
-* DIC-C2DH-HeLa
+Used Dataset: **DIC-C2DH-HeLa**
 
 ### 2. Expected Structure
 
